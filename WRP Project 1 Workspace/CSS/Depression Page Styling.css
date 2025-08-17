@@ -1,0 +1,25 @@
+.depression-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 40px;
+    align-items: center;
+}
+.grid-item.image img{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.grid-item.text h1{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #5d63b2;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    
+}
+.grid-items.text p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #444;
+}
